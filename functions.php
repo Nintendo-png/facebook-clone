@@ -3,7 +3,7 @@
 
     function db_connect(){
         global $conn; // db connection variable
-        $db_server = "127.0.0.1"; // use 127.0.0.1 instead of localhost
+        $db_server = "192.168.0.95"; // use 127.0.0.1 instead of localhost
         $username = "root";
         $password = "";
         $db_name = "faceclone";
